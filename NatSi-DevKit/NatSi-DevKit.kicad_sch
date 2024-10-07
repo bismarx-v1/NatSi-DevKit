@@ -1,0 +1,35 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "900bd7ac-cdf9-4a2f-8b1f-2c21e3760046")
+	(paper "A4")
+	(title_block
+		(title "NatSi-DevKit")
+		(date "2024-10-07")
+		(rev "v1.0.0")
+		(company "Burger with everything Inc.")
+		(comment 1 "Made in Prague, Czech Republic")
+		(comment 2 "CONTACT: Savva Popov, savva.popov.sp@gmail.com, +420 605 570 366")
+		(comment 3 "Custom ESP32-S3 DevKit made for a \"special\" girl (she silly)")
+		(comment 4 "Made for wonderful Natani S. - by bismarx")
+	)
+	(lib_symbols)
+	(text "NatSi-DevKit : 3"
+		(exclude_from_sim no)
+		(at 145.288 26.416 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 7 7)
+				(color 255 0 255 1)
+			)
+		)
+		(uuid "f43e906e-158c-4bc9-8175-1b7575cb8140")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
