@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SUMEC_MK_IV.kicad_pro",
+    "filename": "NatSi-DevKit.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -867,6 +867,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
           "show": false
         }
       ],
