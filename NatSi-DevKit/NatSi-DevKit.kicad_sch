@@ -5657,12 +5657,6 @@
 		(uuid "26929e75-5c27-4270-85dc-d87d665ce302")
 	)
 	(junction
-		(at 349.25 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38cda814-1d21-4b49-bff2-4d91ee95308a")
-	)
-	(junction
 		(at 247.65 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5705,22 +5699,16 @@
 		(uuid "8271c042-1d32-4f07-b618-df7e7781ce04")
 	)
 	(junction
-		(at 349.25 219.71)
+		(at 247.65 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b6c7aed-cdf4-4b1e-b317-a47197b5c72d")
+		(uuid "882bbdf3-d846-4a50-84f3-40457671afaa")
 	)
 	(junction
 		(at 280.67 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1e68f64-a71c-4b8a-acc7-cbc5b0da0f08")
-	)
-	(junction
-		(at 349.25 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aab137f3-8e0a-4579-86b7-97d395af43bb")
 	)
 	(junction
 		(at 332.74 105.41)
@@ -5770,6 +5758,12 @@
 		(color 0 0 0 0)
 		(uuid "f3f2b333-5b69-4fb3-915a-331dcc58abc7")
 	)
+	(junction
+		(at 278.13 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe193463-b2aa-4786-b1a9-7e86ae152afc")
+	)
 	(no_connect
 		(at 114.3 170.18)
 		(uuid "0b070415-f855-4882-9f08-a361dc0daa32")
@@ -5803,16 +5797,6 @@
 			(type default)
 		)
 		(uuid "0141bf3c-1739-49da-ac7f-8fd0967b054e")
-	)
-	(wire
-		(pts
-			(xy 335.28 226.06) (xy 349.25 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0332a1ae-2f0d-45da-b641-4c2363328897")
 	)
 	(wire
 		(pts
@@ -5896,6 +5880,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 120.65) (xy 250.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f2123e-23ac-46ea-a57e-252cd9bd47f5")
+	)
+	(wire
+		(pts
 			(xy 116.84 217.17) (xy 116.84 220.98)
 		)
 		(stroke
@@ -5966,26 +5960,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 73.66) (xy 205.74 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21145822-9128-4136-a877-7b079cddd672")
-	)
-	(wire
-		(pts
-			(xy 335.28 213.36) (xy 349.25 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21eca6f2-0581-4bac-b3f6-e2e1a12a79d6")
-	)
-	(wire
-		(pts
 			(xy 116.84 220.98) (xy 116.84 227.33)
 		)
 		(stroke
@@ -6013,6 +5987,16 @@
 			(type default)
 		)
 		(uuid "26669e53-ad4c-49be-9442-e2fa34cbd4f8")
+	)
+	(wire
+		(pts
+			(xy 278.13 118.11) (xy 276.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a4acf0-d1cd-44e8-9620-e68859628485")
 	)
 	(bus
 		(pts
@@ -6216,7 +6200,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 220.98) (xy 198.12 220.98)
+			(xy 195.58 220.98) (xy 198.12 220.98)
 		)
 		(stroke
 			(width 0)
@@ -6226,13 +6210,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 220.98) (xy 175.26 220.98)
+			(xy 172.72 220.98) (xy 173.99 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ba7e1bf-cf64-4cd2-9228-633ff2bf8cff")
+	)
+	(wire
+		(pts
+			(xy 250.19 69.85) (xy 247.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6ec801-22f2-4060-9662-197511d87859")
 	)
 	(wire
 		(pts
@@ -6253,16 +6247,6 @@
 			(type default)
 		)
 		(uuid "4f84368a-f5d0-4f0e-a13b-a49d3e2df492")
-	)
-	(wire
-		(pts
-			(xy 166.37 78.74) (xy 167.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f94a28f-574c-44ae-a432-1c8e4fb4a6c2")
 	)
 	(wire
 		(pts
@@ -6293,16 +6277,6 @@
 			(type default)
 		)
 		(uuid "5e5050a9-9d04-40b2-a2b6-5fed65c9631c")
-	)
-	(wire
-		(pts
-			(xy 349.25 233.68) (xy 349.25 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4c6fba-8da4-49d4-8465-19ee05a6fb06")
 	)
 	(wire
 		(pts
@@ -6356,13 +6330,23 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 219.71) (xy 349.25 219.71)
+			(xy 278.13 120.65) (xy 280.67 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63a2eaab-f600-450d-be61-a5ed97835731")
+		(uuid "639db47f-75e0-43d9-be5b-255d11f2808b")
+	)
+	(wire
+		(pts
+			(xy 283.21 67.31) (xy 276.86 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a545645-b438-493f-aca7-830975758168")
 	)
 	(wire
 		(pts
@@ -6376,13 +6360,23 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 213.36) (xy 349.25 219.71)
+			(xy 325.12 222.25) (xy 325.12 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b5335c5-4431-4d0a-a1f3-2d9bc7edb8c7")
+		(uuid "6e099f79-98da-48ad-91f1-eb845c05eefa")
+	)
+	(wire
+		(pts
+			(xy 276.86 120.65) (xy 278.13 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b42522-7074-4d5e-af4a-f461bc909bfa")
 	)
 	(wire
 		(pts
@@ -6403,16 +6397,6 @@
 			(type default)
 		)
 		(uuid "72c0344d-21fe-443e-a7b1-2eea527256ac")
-	)
-	(wire
-		(pts
-			(xy 349.25 219.71) (xy 349.25 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "761ba217-1933-4ecf-84be-6a772b0f3864")
 	)
 	(wire
 		(pts
@@ -6463,16 +6447,6 @@
 			(type default)
 		)
 		(uuid "7d1a0aed-41e3-42b1-af89-3911610e2fb5")
-	)
-	(wire
-		(pts
-			(xy 185.42 220.98) (xy 186.69 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80012986-ff44-4149-9071-94a2fe502537")
 	)
 	(wire
 		(pts
@@ -6546,6 +6520,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 67.31) (xy 247.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c957eb-bfd0-4f62-aa7a-b74052bc6422")
+	)
+	(wire
+		(pts
 			(xy 280.67 175.26) (xy 280.67 173.99)
 		)
 		(stroke
@@ -6563,6 +6547,16 @@
 			(type default)
 		)
 		(uuid "8c0c86ed-dedc-406a-aa6c-4d00d9e91e71")
+	)
+	(wire
+		(pts
+			(xy 247.65 67.31) (xy 247.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c619786-4fd2-4bc0-a01c-703221549368")
 	)
 	(wire
 		(pts
@@ -6586,13 +6580,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 83.82) (xy 205.74 83.82)
+			(xy 328.93 222.25) (xy 328.93 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e14740e-da57-4de6-868e-d3e1b3d3cc32")
+		(uuid "8ec5a092-28a5-4c6c-bf28-f48c58c2806a")
 	)
 	(wire
 		(pts
@@ -6666,6 +6660,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 120.65) (xy 278.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b30535-7747-413b-a222-faa5a1da0e10")
+	)
+	(wire
+		(pts
 			(xy 204.47 153.67) (xy 205.74 153.67)
 		)
 		(stroke
@@ -6706,16 +6710,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 232.41) (xy 349.25 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a31fc75c-d8e6-44b6-90f6-6bb8719704a8")
-	)
-	(wire
-		(pts
 			(xy 152.4 167.64) (xy 151.13 167.64)
 		)
 		(stroke
@@ -6743,6 +6737,16 @@
 			(type default)
 		)
 		(uuid "a5e31ee4-7569-42c7-ac6a-ffb0ad6b6cbb")
+	)
+	(wire
+		(pts
+			(xy 332.74 222.25) (xy 332.74 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a771c310-3379-4ac2-b34f-262d04d996bc")
 	)
 	(wire
 		(pts
@@ -6866,13 +6870,13 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 226.06) (xy 349.25 232.41)
+			(xy 247.65 118.11) (xy 250.19 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc82f29a-4b00-4e44-8b28-759ae4c0ca78")
+		(uuid "bcc05af0-5a43-472f-aead-9da488da223a")
 	)
 	(wire
 		(pts
@@ -6916,6 +6920,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 222.25) (xy 344.17 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41080de-301a-437e-9d7f-a91a0407be6c")
+	)
+	(wire
+		(pts
 			(xy 240.03 161.29) (xy 242.57 161.29)
 		)
 		(stroke
@@ -6954,6 +6968,16 @@
 		)
 		(uuid "c9baa98f-76ca-4fbb-8819-614cefec1d2b")
 	)
+	(wire
+		(pts
+			(xy 250.19 67.31) (xy 247.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae168c3-94b2-429b-9ea4-2ee65b281ec6")
+	)
 	(bus
 		(pts
 			(xy 306.07 199.39) (xy 306.07 187.96)
@@ -6984,16 +7008,6 @@
 		)
 		(uuid "d08b6985-cc21-404c-95d1-62f6e1ec1a5f")
 	)
-	(wire
-		(pts
-			(xy 208.28 76.2) (xy 205.74 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a250f7-f8d7-4f72-bd4d-eca73f7b0613")
-	)
 	(bus
 		(pts
 			(xy 294.64 144.78) (xy 294.64 133.35)
@@ -7013,6 +7027,16 @@
 			(type default)
 		)
 		(uuid "d679f659-6ee5-4de9-869c-04868968e1cc")
+	)
+	(wire
+		(pts
+			(xy 336.55 222.25) (xy 336.55 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2ab240-de24-4018-b517-ed6efba6b6f2")
 	)
 	(bus
 		(pts
@@ -7096,13 +7120,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 86.36) (xy 205.74 86.36)
+			(xy 340.36 222.25) (xy 340.36 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebffa507-c175-4003-ae66-c8627ba1a04d")
+		(uuid "eb329d12-177b-4af1-a625-f9163cc12ee7")
 	)
 	(wire
 		(pts
@@ -7123,6 +7147,16 @@
 			(type default)
 		)
 		(uuid "efdc0573-73d9-4ed8-8e78-97ec1971a446")
+	)
+	(wire
+		(pts
+			(xy 184.15 220.98) (xy 187.96 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f057f598-4773-4e41-b356-883c45b5417d")
 	)
 	(wire
 		(pts
@@ -7419,7 +7453,7 @@
 		)
 		(uuid "5c3257f0-6efc-41c4-a793-6694eb6a3a3d")
 	)
-	(text "MOUNTING HOLES"
+	(text "GRAPHIC"
 		(exclude_from_sim no)
 		(at 306.705 200.025 0)
 		(effects
@@ -7541,20 +7575,6 @@
 		)
 		(uuid "b392a3b2-8c21-4609-9d75-6d11f3c5ed54")
 	)
-	(text "M3 Padded Mounting holes"
-		(exclude_from_sim no)
-		(at 327.152 210.312 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.5 1.5)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "b9518b64-9a10-4714-9685-62fd289c2be2")
-	)
 	(text "LEDs"
 		(exclude_from_sim no)
 		(at 306.07 145.415 0)
@@ -7624,6 +7644,16 @@
 		)
 		(uuid "d307952e-ecf3-4dc3-8068-e9dbe0d82c67")
 	)
+	(text "*insert can copy labels but change one value in it\n\neg: IO8_BT *press insert* creates IO9_BT"
+		(exclude_from_sim no)
+		(at 262.255 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfe6dd3c-6142-4d01-a94e-cb2e6b7aa9f6")
+	)
 	(text "ENABLE\nRESET"
 		(exclude_from_sim no)
 		(at 120.015 214.63 0)
@@ -7663,6 +7693,83 @@
 			(justify left bottom)
 		)
 		(uuid "11583fce-7310-4d04-8a51-9a223a5c837a")
+	)
+	(label "1"
+		(at 332.74 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1445a851-b9ca-4b0f-8330-29d16f4f6418")
+	)
+	(label "1"
+		(at 336.55 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1514c445-bdf7-46a3-af12-25c7f6b517d3")
+	)
+	(label "1"
+		(at 340.36 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37f66ee3-2495-44da-9b08-c5204b36836d")
+	)
+	(label "1"
+		(at 328.93 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c7fb799-e2eb-4a8d-9101-5264ad838e0d")
+	)
+	(label "BUTTON"
+		(at 184.15 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0d9c5e2-2d66-4ede-8482-2d5db63170de")
+	)
+	(label "1"
+		(at 344.17 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd10c94d-5b2a-45c3-ab47-a60b3866237c")
+	)
+	(label "1"
+		(at 325.12 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e73184b0-36db-4507-bc2e-a943b8ba2abe")
 	)
 	(global_label "EN"
 		(shape input)
@@ -7714,9 +7821,9 @@
 			)
 		)
 	)
-	(global_label "RX"
-		(shape output)
-		(at 208.28 76.2 0)
+	(global_label "RXD0"
+		(shape input)
+		(at 205.74 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7728,7 +7835,7 @@
 		)
 		(uuid "09fe9a29-eb8e-4d82-b5e9-4b24ad4b35a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.162 76.2 0)
+			(at 210.9908 76.2 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7789,6 +7896,81 @@
 			)
 		)
 	)
+	(global_label "IO35"
+		(shape input)
+		(at 205.74 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0ef165e4-4489-47c6-a56d-fc58a8fad390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.9908 91.44 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO47_LED"
+		(shape input)
+		(at 205.74 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0f53186f-c39c-40d6-a5d4-ffa31be7f795")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.0663 116.84 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN"
+		(shape input)
+		(at 250.19 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "100f8239-577b-416f-98c4-2796afe07434")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.9497 72.39 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO45"
 		(shape input)
 		(at 205.74 111.76 0)
@@ -7804,6 +7986,31 @@
 		(uuid "11de21b4-0353-4b2f-99d7-1c213462878f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.7621 111.76 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO42"
+		(shape input)
+		(at 276.86 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1581c9ae-c851-4037-8967-bdb92f98acca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.8431 80.01 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7839,31 +8046,6 @@
 			)
 		)
 	)
-	(global_label "IO36"
-		(shape input)
-		(at 205.74 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "1de27bf2-c06e-4639-b212-6d4cc83d0716")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6547 93.98 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO18"
 		(shape input)
 		(at 205.74 81.28 0)
@@ -7889,7 +8071,7 @@
 			)
 		)
 	)
-	(global_label "IO10_~{CS}"
+	(global_label "IO10"
 		(shape input)
 		(at 167.64 104.14 180)
 		(fields_autoplaced yes)
@@ -7903,7 +8085,7 @@
 		)
 		(uuid "21166195-559b-47bf-8742-7e3aedc92aee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.0827 104.14 0)
+			(at 162.3892 104.14 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7914,7 +8096,7 @@
 			)
 		)
 	)
-	(global_label "IO11_MOSI"
+	(global_label "IO11"
 		(shape input)
 		(at 167.64 106.68 180)
 		(fields_autoplaced yes)
@@ -7928,7 +8110,7 @@
 		)
 		(uuid "23062b01-8880-436e-a297-aa1ff404bb45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.5449 106.68 0)
+			(at 162.3892 106.68 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7939,7 +8121,7 @@
 			)
 		)
 	)
-	(global_label "IO05"
+	(global_label "IO05_CLK"
 		(shape input)
 		(at 167.64 91.44 180)
 		(fields_autoplaced yes)
@@ -7951,9 +8133,9 @@
 			)
 			(justify right)
 		)
-		(uuid "26ace09d-16e7-4db5-a238-aedf0bce4fed")
+		(uuid "23a806e1-8bb7-4688-a144-855e2c4cf96f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6696 91.44 0)
+			(at 159.3137 91.44 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7964,7 +8146,32 @@
 			)
 		)
 	)
-	(global_label "IO12_CLK"
+	(global_label "IO14"
+		(shape input)
+		(at 250.19 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "2527b646-85eb-4437-86e2-9744907f0710")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9392 115.57 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO12"
 		(shape input)
 		(at 167.64 109.22 180)
 		(fields_autoplaced yes)
@@ -7978,7 +8185,7 @@
 		)
 		(uuid "2ad14fb5-96b6-48d2-a1d2-c84f72c5ed44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.3137 109.22 0)
+			(at 162.3892 109.22 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7989,9 +8196,9 @@
 			)
 		)
 	)
-	(global_label "D+"
-		(shape output)
-		(at 205.74 153.67 0)
+	(global_label "IO39"
+		(shape input)
+		(at 276.86 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8001,15 +8208,65 @@
 			)
 			(justify left)
 		)
-		(uuid "2e4a4637-c50a-4f87-8f43-f48f6eba0fa2")
+		(uuid "36e4b88f-2a4e-4ee1-ae58-57084a19ce45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.5732 153.67 0)
+			(at 281.7747 87.63 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO47_LED"
+		(shape input)
+		(at 276.86 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "382a822d-654e-4295-9199-b38692276a97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.1863 107.95 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO18"
+		(shape input)
+		(at 250.19 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "38f4b9f2-ad51-4107-bfa7-0f2b8eafaa9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.4736 92.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8039,9 +8296,9 @@
 			)
 		)
 	)
-	(global_label "BOOT"
+	(global_label "IO02"
 		(shape input)
-		(at 157.48 220.98 0)
+		(at 276.86 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8051,9 +8308,9 @@
 			)
 			(justify left)
 		)
-		(uuid "406485ed-12f4-4caf-8a42-36e420657982")
+		(uuid "3f14df50-a7c8-4d10-b731-7f17173cabab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.625 220.98 0)
+			(at 282.1108 77.47 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8064,9 +8321,59 @@
 			)
 		)
 	)
-	(global_label "D-"
+	(global_label "IO19_D-"
 		(shape input)
-		(at 208.28 83.82 0)
+		(at 276.86 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "40e982b2-3588-4177-83e0-5d272d340c46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.4174 115.57 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO06_MOSI"
+		(shape input)
+		(at 167.64 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "432dfff4-577b-4ebb-9613-a6eb8f4b6056")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.5449 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO19_D-"
+		(shape input)
+		(at 205.74 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8078,7 +8385,7 @@
 		)
 		(uuid "46ea3284-c53a-4c04-85e6-ddcb23fa255b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.806 83.82 0)
+			(at 213.2974 83.82 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8089,7 +8396,57 @@
 			)
 		)
 	)
-	(global_label "IO11_MOSI"
+	(global_label "IO47_LED"
+		(shape input)
+		(at 330.2 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "4700d4c0-27a1-4791-950d-f65da23819f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.8737 175.26 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO13"
+		(shape input)
+		(at 250.19 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "47c55e04-c453-4654-99c0-04ef53192d9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9392 113.03 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO06_MOSI"
 		(shape input)
 		(at 335.28 95.25 180)
 		(fields_autoplaced yes)
@@ -8114,9 +8471,9 @@
 			)
 		)
 	)
-	(global_label "IO14"
+	(global_label "IO00_BOOT"
 		(shape input)
-		(at 167.64 114.3 180)
+		(at 157.48 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8124,24 +8481,24 @@
 				(size 1 1)
 				(color 0 0 0 1)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4e00e9ed-715a-4b3d-a75d-b54f9f8ac862")
+		(uuid "4dc3c101-25dc-4d37-b6da-52f14abacdbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.9149 114.3 0)
+			(at 166.5751 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "BOOT"
+	(global_label "IO00_BOOT"
 		(shape input)
-		(at 166.37 78.74 180)
+		(at 167.64 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8153,7 +8510,7 @@
 		)
 		(uuid "4e94068b-4ee1-4e99-81d9-b80ad20984da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.8574 78.74 0)
+			(at 158.5449 78.74 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8164,9 +8521,9 @@
 			)
 		)
 	)
-	(global_label "IO42"
+	(global_label "IO37"
 		(shape input)
-		(at 205.74 114.3 0)
+		(at 276.86 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8176,9 +8533,34 @@
 			)
 			(justify left)
 		)
-		(uuid "57984f9e-ddf1-4aea-a250-c27703ee8636")
+		(uuid "5020cbdb-94e2-4cf0-b799-cf906fbd7b92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.7231 114.3 0)
+			(at 281.761 92.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO21_LED"
+		(shape input)
+		(at 205.74 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "58fdb84a-ab4a-4831-ab5e-ff887366e86e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.0663 88.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8214,6 +8596,81 @@
 			)
 		)
 	)
+	(global_label "TXD0"
+		(shape input)
+		(at 276.86 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "5f6e1949-bc59-499a-9fa0-d7bf21cc7824")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.1108 69.85 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO20_D+"
+		(shape input)
+		(at 276.86 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "61b9e69d-4634-4e77-a697-fc44a143ea94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.4174 113.03 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO10"
+		(shape input)
+		(at 250.19 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "6303d5df-0417-460f-ad9a-a94402976d8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9392 105.41 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO02"
 		(shape input)
 		(at 167.64 83.82 180)
@@ -8239,7 +8696,32 @@
 			)
 		)
 	)
-	(global_label "IO13_MISO"
+	(global_label "IO46"
+		(shape input)
+		(at 250.19 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "67e99f1a-094a-4cc7-8c6c-9edbf0b12b26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9392 100.33 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO04_MISO"
 		(shape input)
 		(at 335.28 85.09 180)
 		(fields_autoplaced yes)
@@ -8264,9 +8746,9 @@
 			)
 		)
 	)
-	(global_label "D-"
-		(shape output)
-		(at 205.74 179.07 0)
+	(global_label "IO17"
+		(shape input)
+		(at 250.19 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8274,17 +8756,42 @@
 				(size 1 1)
 				(color 0 0 0 1)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "74650835-0f21-48fc-a1a7-772d31efbba9")
+		(uuid "6bf37326-ac36-4dc8-9b3b-adb4eb32990e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.5048 179.07 0)
+			(at 245.5567 90.17 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO06_MOSI"
+		(shape input)
+		(at 250.19 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "6e6bd7b7-14f8-421e-b7ad-e636fbb3d8c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.0949 80.01 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8339,9 +8846,9 @@
 			)
 		)
 	)
-	(global_label "IO08"
+	(global_label "IO12"
 		(shape input)
-		(at 167.64 99.06 180)
+		(at 250.19 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8351,15 +8858,65 @@
 			)
 			(justify right)
 		)
-		(uuid "7b7de597-860d-4264-b61d-69e4903a27f4")
+		(uuid "7c1c154c-bb7f-43db-bcfa-df08db04beb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6442 99.06 0)
+			(at 244.9392 110.49 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO41"
+		(shape input)
+		(at 276.86 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7dede62b-6c07-4d91-806e-0090bad8f2b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.551 82.55 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO36"
+		(shape input)
+		(at 276.86 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "80cda4b2-f302-40d6-9ff8-6951ecadf2b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.1108 95.25 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8389,9 +8946,9 @@
 			)
 		)
 	)
-	(global_label "IO06"
+	(global_label "IO05_CLK"
 		(shape input)
-		(at 167.64 93.98 180)
+		(at 250.19 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8401,9 +8958,9 @@
 			)
 			(justify right)
 		)
-		(uuid "81e6c323-84b5-473b-8e7f-89bd08fe54c0")
+		(uuid "8527b876-4ccf-4800-a0d9-7adf361d158b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.7136 93.98 0)
+			(at 241.8637 77.47 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8414,7 +8971,32 @@
 			)
 		)
 	)
-	(global_label "IO12_CLK"
+	(global_label "IO38"
+		(shape input)
+		(at 276.86 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "88178464-4890-47da-b11e-54b89649dcf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.844 90.17 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO05_CLK"
 		(shape input)
 		(at 335.28 97.79 180)
 		(fields_autoplaced yes)
@@ -8429,6 +9011,31 @@
 		(uuid "89a6ca55-a5eb-4edd-bc9f-601732312085")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 326.9537 97.79 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO04_MISO"
+		(shape input)
+		(at 167.64 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "89bd49be-40e2-4179-ac79-851cd8b54dfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.5449 88.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8464,9 +9071,34 @@
 			)
 		)
 	)
-	(global_label "IO21"
+	(global_label "IO14"
 		(shape input)
-		(at 205.74 88.9 0)
+		(at 167.64 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "92749506-2e3a-44a1-bd41-af84528e93b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.3892 114.3 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO00_BOOT"
+		(shape input)
+		(at 276.86 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8476,9 +9108,184 @@
 			)
 			(justify left)
 		)
-		(uuid "980095f9-0506-42fc-83f9-52ee6db96b65")
+		(uuid "92d04dc5-82db-40a6-9204-92cc9ef9ddb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.3919 88.9 0)
+			(at 285.9551 100.33 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO01"
+		(shape input)
+		(at 276.86 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "93a5c528-e30d-41ca-ae76-3ec661f27156")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.1108 74.93 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO46"
+		(shape input)
+		(at 205.74 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9500573d-258b-43b8-80d3-0c1c0129d03a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.9908 114.3 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO35"
+		(shape input)
+		(at 276.86 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "97e49f85-bd92-4c60-808b-faaf8bed95d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.1108 97.79 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO15"
+		(shape input)
+		(at 250.19 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "9b5af174-5805-4db0-be32-ebdbf5a21866")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.499 85.09 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO48"
+		(shape input)
+		(at 276.86 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9c76bbab-5105-4f37-b183-9c036b24ea9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.9075 105.41 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO36"
+		(shape input)
+		(at 205.74 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9d86db2f-4162-4479-af16-bed92e684849")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.9908 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO20_D+"
+		(shape input)
+		(at 205.74 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9fb87541-3754-40c8-9f83-ef7577004c99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2974 153.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8539,9 +9346,84 @@
 			)
 		)
 	)
-	(global_label "TX"
-		(shape output)
-		(at 208.28 73.66 0)
+	(global_label "IO11"
+		(shape input)
+		(at 250.19 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "a43d683c-a5c7-41b5-8974-abf6d175f419")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9392 107.95 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO8_BT"
+		(shape input)
+		(at 167.64 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "aa08c3e1-0aaa-4648-a603-28488937307e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.8515 99.06 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO04_MISO"
+		(shape input)
+		(at 250.19 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "ab4531b5-f40b-442b-9ed0-25093fb99089")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.0949 74.93 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TXD0"
+		(shape input)
+		(at 205.74 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8553,7 +9435,7 @@
 		)
 		(uuid "aee15d1d-5d7e-447f-a119-12a02ea4531c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.9647 73.66 0)
+			(at 210.9908 73.66 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8564,34 +9446,9 @@
 			)
 		)
 	)
-	(global_label "IO35"
+	(global_label "IO20_D+"
 		(shape input)
-		(at 205.74 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "af87ba92-488e-4f43-816c-39da1864834c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6986 91.44 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+"
-		(shape input)
-		(at 208.28 86.36 0)
+		(at 205.74 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8603,13 +9460,63 @@
 		)
 		(uuid "b414fc7c-6173-4529-80a7-cbc7766de709")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.806 86.36 0)
+			(at 213.2974 86.36 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO8_BT"
+		(shape input)
+		(at 250.19 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "b453bc26-ae1c-460b-990d-1d83075a17fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.4015 95.25 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO16"
+		(shape input)
+		(at 250.19 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "b61fde96-d3b4-4dae-a978-04058d66a7df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.543 87.63 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8664,7 +9571,32 @@
 			)
 		)
 	)
-	(global_label "IO13_MISO"
+	(global_label "IO21_LED"
+		(shape input)
+		(at 330.2 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "bd851e03-5d0d-442e-af1d-4c0ffa5dad6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.8737 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO13"
 		(shape input)
 		(at 167.64 111.76 180)
 		(fields_autoplaced yes)
@@ -8678,7 +9610,7 @@
 		)
 		(uuid "bdeb37a0-22bd-445e-b919-aea5eaa78f07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.5449 111.76 0)
+			(at 162.3892 111.76 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8714,7 +9646,7 @@
 			)
 		)
 	)
-	(global_label "BT1"
+	(global_label "IO8_BT"
 		(shape input)
 		(at 203.2 220.98 0)
 		(fields_autoplaced yes)
@@ -8728,7 +9660,32 @@
 		)
 		(uuid "c48be252-003e-4e40-9f3c-2e6bc980531b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.6819 220.98 0)
+			(at 209.9885 220.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO45"
+		(shape input)
+		(at 276.86 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c5c867a6-89cb-4525-921f-7a3540c5743e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.8821 102.87 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8764,9 +9721,9 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "IO03"
 		(shape input)
-		(at 330.2 165.1 180)
+		(at 250.19 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8776,9 +9733,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ca84ae86-4674-4a77-bb8f-3b6ba86e82d9")
+		(uuid "cb0bfa0b-04ca-4db7-8fe0-703f7ea68ad6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.003 165.1 0)
+			(at 245.2489 97.79 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8789,7 +9746,32 @@
 			)
 		)
 	)
-	(global_label "IO10_~{CS}"
+	(global_label "RXD0"
+		(shape input)
+		(at 276.86 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d879673b-03f3-410c-b78e-351a78c1a05e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.1108 72.39 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO07_~{CS}"
 		(shape input)
 		(at 321.31 92.71 180)
 		(fields_autoplaced yes)
@@ -8814,9 +9796,9 @@
 			)
 		)
 	)
-	(global_label "IO04"
+	(global_label "IO19_D-"
 		(shape input)
-		(at 167.64 88.9 180)
+		(at 205.74 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8824,17 +9806,17 @@
 				(size 1 1)
 				(color 0 0 0 1)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "d9f3474c-d97c-4538-86c3-fa27b6683a26")
+		(uuid "da11874b-dfe0-4b70-b114-bb83f31962e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6354 88.9 0)
+			(at 213.2974 179.07 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8860,6 +9842,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO07_~{CS}"
+		(shape input)
+		(at 250.19 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "dc84075e-dc05-447b-80e1-aad60f3bf79a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.6327 82.55 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO07_~{CS}"
+		(shape input)
+		(at 167.64 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "e0369b5a-5246-4b08-a2a4-7e23398bb957")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.0827 96.52 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8914,59 +9946,9 @@
 			)
 		)
 	)
-	(global_label "LED2"
+	(global_label "IO40"
 		(shape input)
-		(at 330.2 175.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "f21778e7-9904-4b6e-9cdd-4b04f9fa0b38")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 324.7451 175.26 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO07"
-		(shape input)
-		(at 167.64 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "f3ec7092-cacd-4478-824b-2556f3f4e000")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.7273 96.52 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO47"
-		(shape input)
-		(at 205.74 116.84 0)
+		(at 276.86 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8976,9 +9958,34 @@
 			)
 			(justify left)
 		)
-		(uuid "f4ab615e-28c4-4ee7-8a94-94c79873fd1a")
+		(uuid "e622d40b-41c3-4028-a4db-11dfbf3c918a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.7045 116.84 0)
+			(at 281.8919 85.09 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO21_LED"
+		(shape input)
+		(at 276.86 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f9ce725e-b29f-46ba-9a65-bba9778db0f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.1863 110.49 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9004,6 +10011,31 @@
 		(uuid "fb03604a-3621-4e9a-bb9b-c07584449d83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.2497 220.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO09"
+		(shape input)
+		(at 250.19 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "fee2605c-63ae-4284-8376-3e1a9ec2045f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.2636 102.87 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9088,7 +10120,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 180.34 220.98 0)
+		(at 179.07 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9096,7 +10128,7 @@
 		(dnp no)
 		(uuid "00b9204d-5766-4014-9253-fc6968c6f996")
 		(property "Reference" "SW3"
-			(at 180.34 216.535 0)
+			(at 179.07 216.535 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -9105,7 +10137,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 180.34 217.17 0)
+			(at 179.07 217.17 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -9115,7 +10147,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
-			(at 180.34 215.9 0)
+			(at 179.07 215.9 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -9125,7 +10157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 215.9 0)
+			(at 179.07 215.9 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -9135,7 +10167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 220.98 0)
+			(at 179.07 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +10406,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 220.98 90)
+		(at 191.77 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9382,7 +10414,7 @@
 		(dnp no)
 		(uuid "0d0f3404-3319-4360-88cf-b7762066b602")
 		(property "Reference" "R5"
-			(at 191.77 216.535 90)
+			(at 193.04 216.535 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -9392,7 +10424,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 191.77 218.44 90)
+			(at 193.04 218.44 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -9402,7 +10434,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 190.5 222.758 90)
+			(at 191.77 222.758 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -9412,7 +10444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 220.98 0)
+			(at 191.77 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9422,7 +10454,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 220.98 0)
+			(at 191.77 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9441,6 +10473,79 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 344.17 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1222e4c0-5833-4172-bd76-c3a13a171c5a")
+		(property "Reference" "TP9"
+			(at 345.948 215.138 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 345.948 217.678 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:FLO_POINTING_IMG"
+			(at 349.25 226.695 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 344.17 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afba3746-3843-49df-802c-be03670b6228")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -9592,7 +10697,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x22_Pin")
-		(at 247.65 92.71 0)
+		(at 255.27 92.71 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9600,7 +10706,7 @@
 		(dnp no)
 		(uuid "1ed16592-9bfa-446c-b7cb-0f8f9ebda2be")
 		(property "Reference" "J2"
-			(at 250.19 63.5 0)
+			(at 252.73 63.5 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9609,7 +10715,7 @@
 			)
 		)
 		(property "Value" "Conn_01x22_Pin"
-			(at 248.285 64.77 0)
+			(at 254.635 64.77 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9619,7 +10725,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical"
-			(at 247.65 92.71 0)
+			(at 255.27 92.71 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9629,7 +10735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 92.71 0)
+			(at 255.27 92.71 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9639,7 +10745,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x22, script generated"
-			(at 247.65 92.71 0)
+			(at 255.27 92.71 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9789,6 +10895,79 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 328.93 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25bc2ef3-3c9b-4927-a22c-d0192d80d86c")
+		(property "Reference" "TP5"
+			(at 330.708 215.138 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 330.708 217.678 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:NAT_PFP_IMG"
+			(at 334.01 226.695 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 328.93 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a496679-59f4-4573-b6c8-c9aea49ffc21")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -10734,6 +11913,77 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 247.65 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d19fa8c-dd7c-48f1-9b33-a9d2552f8880")
+		(property "Reference" "#PWR032"
+			(at 251.46 118.11 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 244.475 118.11 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3182a086-b54b-4b80-b0a1-e004f5d61a4a")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 322.58 76.2 180)
 		(unit 1)
@@ -11312,7 +12562,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 316.23 218.44 0)
+		(at 325.12 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11320,27 +12570,29 @@
 		(dnp no)
 		(uuid "68e2d631-dd56-4984-864f-8b79c909696a")
 		(property "Reference" "TP4"
-			(at 318.008 213.868 0)
+			(at 326.898 215.138 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 318.008 216.408 0)
+			(at 326.898 217.678 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "sumec_graphic:NATI_PICME_IMG"
-			(at 321.31 225.425 0)
+			(at 330.2 226.695 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11350,7 +12602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 321.31 218.44 0)
+			(at 330.2 219.71 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11360,7 +12612,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 316.23 218.44 0)
+			(at 325.12 219.71 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11376,6 +12628,77 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b53edd5-c9a7-425d-9648-a4c87f1a0f91")
+		(property "Reference" "#PWR033"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 124.46 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff69037e-712d-43b3-be01-3051d1e02a84")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12211,7 +13534,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 220.98 0)
+		(at 172.72 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12219,7 +13542,7 @@
 		(dnp no)
 		(uuid "88145e04-9c46-448a-8281-efc3b266441c")
 		(property "Reference" "#PWR08"
-			(at 173.99 227.33 0)
+			(at 172.72 227.33 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -12229,7 +13552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 224.79 0)
+			(at 172.72 224.79 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -12239,7 +13562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 220.98 0)
+			(at 172.72 220.98 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -12249,7 +13572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 220.98 0)
+			(at 172.72 220.98 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -12259,7 +13582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 220.98 0)
+			(at 172.72 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12488,6 +13811,79 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 332.74 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "900b4618-74b1-4ff0-af19-81e6d7b0faa4")
+		(property "Reference" "TP6"
+			(at 334.518 215.138 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 334.518 217.678 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:FLO_FRONT_C_IMG"
+			(at 337.82 226.695 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 332.74 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cecb784-0be0-417b-ba3e-84ca511ed79a")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -13157,6 +14553,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 336.55 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ad37a2-6621-48b5-b04e-822ed51e0ab6")
+		(property "Reference" "TP7"
+			(at 338.328 215.138 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 338.328 217.678 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:LIVE_NAT_REACTION_NEG"
+			(at 341.63 226.695 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 336.55 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70326e9c-1899-4816-8bd0-4b715a1f65a0")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 193.04 58.42 90)
 		(mirror x)
@@ -13566,15 +15035,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 349.25 233.68 0)
+		(at 280.67 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b2f36079-7dc3-4424-9490-4a2d674fc730")
-		(property "Reference" "#PWR027"
-			(at 349.25 240.03 0)
+		(uuid "bbb7b7f8-ae7c-4a2f-ba93-a6543f455ba9")
+		(property "Reference" "#PWR035"
+			(at 280.67 127 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13584,16 +15053,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 349.25 237.49 0)
+			(at 280.67 124.46 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 233.68 0)
+			(at 280.67 120.65 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13603,7 +15073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 233.68 0)
+			(at 280.67 120.65 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13613,7 +15083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 233.68 0)
+			(at 280.67 120.65 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13623,12 +15093,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "97bc3ed4-6cb5-49e8-ac4e-d358b64edcc7")
+			(uuid "337377c5-89b9-4a19-8f26-13425d7d2d9c")
 		)
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR027")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13846,6 +15316,77 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 283.21 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1748886-5861-401f-abf1-8c7927f9b36f")
+		(property "Reference" "#PWR034"
+			(at 283.21 73.66 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 71.12 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 67.31 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 67.31 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 67.31 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cc21257-4e35-4f94-ae61-fcc56f54f8c8")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14492,6 +16033,77 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 246.38 67.31 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f02e70ac-31e0-47a8-ab0e-53eeef79d484")
+		(property "Reference" "#PWR027"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 241.3 67.31 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 67.31 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 67.31 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 246.38 67.31 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5240e7f-cdaa-49c5-b59b-77155bf436ae")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 158.75 153.67 90)
 		(unit 1)
@@ -14700,6 +16312,79 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 340.36 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f749b84f-1e0b-4cc1-ba0e-aad5d884f66c")
+		(property "Reference" "TP8"
+			(at 342.138 215.138 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 342.138 217.678 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:FLO_SLEEP_IMG"
+			(at 345.44 226.695 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 340.36 219.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "128026a3-4387-4f15-962c-ccc94ce20e36")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
