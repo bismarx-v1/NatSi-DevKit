@@ -1972,108 +1972,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6658,23 +6556,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 228.6) (xy 269.24 222.25)
+			(xy 269.24 226.06) (xy 269.24 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c0c86ed-dedc-406a-aa6c-4d00d9e91e71")
-	)
-	(wire
-		(pts
-			(xy 281.94 222.25) (xy 281.94 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cbd3156-baa3-4007-8dbc-48eff41836f7")
 	)
 	(wire
 		(pts
@@ -6718,7 +6606,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 228.6) (xy 198.12 231.14)
+			(xy 198.12 229.87) (xy 198.12 231.14)
 		)
 		(stroke
 			(width 0)
@@ -6765,6 +6653,16 @@
 			(type default)
 		)
 		(uuid "987f82b7-fcc3-4001-9956-3d1eb47507f3")
+	)
+	(wire
+		(pts
+			(xy 198.12 222.25) (xy 198.12 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988cb61a-4c52-43e8-81d9-21e13610dfbf")
 	)
 	(wire
 		(pts
@@ -6988,16 +6886,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 209.55) (xy 198.12 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd9dd4e-d722-440d-b96b-d3bdad440b60")
-	)
-	(wire
-		(pts
 			(xy 288.29 161.29) (xy 285.75 161.29)
 		)
 		(stroke
@@ -7098,16 +6986,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 228.6) (xy 281.94 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2aa14ef-270f-432f-93e0-f3e6cf16d0bb")
-	)
-	(wire
-		(pts
 			(xy 208.28 76.2) (xy 205.74 76.2)
 		)
 		(stroke
@@ -7195,6 +7073,16 @@
 			(type default)
 		)
 		(uuid "e0754e16-505f-475f-aa95-27288ff6f89e")
+	)
+	(wire
+		(pts
+			(xy 198.12 210.82) (xy 198.12 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c0d426-b058-49fe-8cbd-4c4881cefaf9")
 	)
 	(wire
 		(pts
@@ -9271,6 +9159,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 349.25 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03eac3dd-cf16-4f25-be11-0e217c5128b7")
+		(property "Reference" "D2"
+			(at 347.345 151.765 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 347.345 153.67 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 349.25 156.21 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 156.21 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 156.21 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19a78387-74b7-4b7a-aa48-12127c20de8b")
+		)
+		(pin "2"
+			(uuid "fef78845-4033-4fa5-878a-69e6c123f292")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 280.67 175.26 0)
 		(unit 1)
@@ -9279,7 +9241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05edb48c-6c68-4c21-afab-d900e233bbb5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 280.67 181.61 0)
 			(effects
 				(font
@@ -9334,7 +9296,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9349,7 +9311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "064e440f-1f41-4338-8601-af985d8613c2")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR012"
 			(at 198.12 237.49 0)
 			(effects
 				(font
@@ -9404,7 +9366,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR031")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9419,7 +9381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d0f3404-3319-4360-88cf-b7762066b602")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 191.77 216.535 90)
 			(effects
 				(font
@@ -9478,7 +9440,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9513,7 +9475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 261.62 222.25 0)
 			(effects
 				(font
@@ -9770,7 +9732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2487379a-4309-40ae-8026-a3b384fa9d66")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 256.54 222.25 0)
 			(effects
 				(font
@@ -9826,7 +9788,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9841,7 +9803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27d03235-7215-43e2-9860-4bfa3adeb153")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 319.405 86.36 0)
 			(effects
 				(font
@@ -9898,7 +9860,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10049,36 +10011,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 349.25 175.26 90)
+		(lib_id "Device:LED")
+		(at 349.25 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "309290d9-2974-4f00-af3a-9e3eb0713278")
-		(property "Reference" "R8"
-			(at 350.52 170.815 90)
+		(uuid "334f99d0-a94f-429b-b92d-624f00f102c4")
+		(property "Reference" "D4"
+			(at 347.345 170.815 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100R"
-			(at 351.155 172.72 90)
+		(property "Value" "LED"
+			(at 347.345 172.72 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 349.25 177.038 90)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 349.25 175.26 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10108,15 +10070,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "92c89648-f200-4e4f-b697-266b8fdeab26")
+			(uuid "5d86126c-b566-41de-b681-c01c4acda623")
 		)
 		(pin "2"
-			(uuid "127c828a-31b2-413d-885e-fbd751efe1fb")
+			(uuid "403008dc-de2f-4c45-bc3e-3626cab631a2")
 		)
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "R8")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 337.82 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33bacd84-95dd-426d-b978-7382d262ee18")
+		(property "Reference" "R9"
+			(at 339.09 160.655 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 339.725 162.56 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 337.82 166.878 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "245a65ce-45ca-4d1e-bd6e-ac7d921eb7d5")
+		)
+		(pin "2"
+			(uuid "ba0e762a-8c18-435e-9182-b25d055cdce2")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10131,7 +10167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33cf0510-c38b-4079-92a0-069d19bdb193")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 208.28 169.545 0)
 			(effects
 				(font
@@ -10190,7 +10226,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10205,7 +10241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "341759e3-97b2-4846-a509-faf481c4624d")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 288.29 167.005 0)
 			(effects
 				(font
@@ -10264,7 +10300,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10353,7 +10389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37679f80-14ec-4f32-a415-077817019753")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 264.16 181.61 0)
 			(effects
 				(font
@@ -10408,77 +10444,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 332.74 219.71 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "39fd3b3e-4bda-465e-aa0d-20530d49a076")
-		(property "Reference" "H2"
-			(at 327.025 219.71 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Mounting Hole M3"
-			(at 331.47 215.9 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 332.74 219.71 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 332.74 219.71 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 332.74 219.71 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6078c4d-e029-49c2-9552-0595b4bcde62")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "H2")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10513,7 +10479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 248.92 222.25 0)
 			(effects
 				(font
@@ -10564,7 +10530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "436a4304-8a17-4cad-a3d6-e4d9ba45fce5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 359.41 171.45 0)
 			(effects
 				(font
@@ -10619,7 +10585,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10634,7 +10600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45d472c4-35bc-485f-a485-8c065a6365e0")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR022"
 			(at 284.48 161.29 0)
 			(effects
 				(font
@@ -10690,7 +10656,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR029")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10705,7 +10671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4831b67f-30b5-4d36-b822-58b0b969bd54")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 322.58 82.55 0)
 			(effects
 				(font
@@ -10761,7 +10727,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10776,7 +10742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "532e4184-ca5a-4bd4-a51c-d47595def4df")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 319.405 74.93 0)
 			(effects
 				(font
@@ -10835,7 +10801,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10850,7 +10816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cb5d104-da8a-498b-a6e8-4e065961ceba")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 201.93 72.39 0)
 			(effects
 				(font
@@ -10906,7 +10872,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10921,7 +10887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63ce04b4-dc66-41d4-838e-5ea1a5559476")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 332.74 113.03 0)
 			(effects
 				(font
@@ -10976,7 +10942,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11345,109 +11311,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 337.82 165.1 180)
+		(lib_id "Connector:TestPoint")
+		(at 316.23 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6a3e857b-d961-4ff2-a109-16f485c40b61")
-		(property "Reference" "D3"
-			(at 335.915 160.655 0)
+		(uuid "68e2d631-dd56-4984-864f-8b79c909696a")
+		(property "Reference" "TP4"
+			(at 318.008 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 335.915 162.56 0)
+		(property "Value" "TestPoint"
+			(at 318.008 216.408 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 337.82 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 337.82 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4feda3bc-4123-4746-88a2-623be6b1ceae")
-		)
-		(pin "2"
-			(uuid "42844727-8078-4dd6-8a43-3b4edf1e6ca6")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 332.74 226.06 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a484ae0-9056-4363-b472-c5c8f71bbc6e")
-		(property "Reference" "H3"
-			(at 327.025 226.06 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Mounting Hole M3"
-			(at 331.47 222.25 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 332.74 226.06 0)
+		(property "Footprint" "sumec_graphic:NATI_PICME_IMG"
+			(at 321.31 225.425 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11457,7 +11350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 226.06 0)
+			(at 321.31 218.44 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11466,79 +11359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 332.74 226.06 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fa819a7-53be-40cd-bcad-ea13c443dfb3")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 337.82 156.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b033564-4db5-4d00-bf5f-96f95a92d481")
-		(property "Reference" "D2"
-			(at 335.915 151.765 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 335.915 153.67 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 337.82 156.21 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 337.82 156.21 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 156.21 0)
+		(property "Description" "test point"
+			(at 316.23 218.44 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11548,15 +11370,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1780edca-9128-45f4-b722-37ffcc5e3624")
-		)
-		(pin "2"
-			(uuid "2193dce6-f742-43f5-b373-13bfd27bed5f")
+			(uuid "d2aee9f5-0150-4323-bd29-9066a41ff1f0")
 		)
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "D2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -11564,15 +11383,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.12 214.63 180)
+		(at 198.12 214.63 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6fb76ccf-a40e-4933-8fc4-dece0124a3c7")
-		(property "Reference" "R?"
-			(at 194.945 213.36 0)
+		(property "Reference" "R6"
+			(at 201.295 213.36 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11581,7 +11401,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 194.945 215.265 0)
+			(at 201.295 215.265 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11590,7 +11410,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 199.898 214.63 90)
+			(at 196.342 214.63 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -11628,7 +11448,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11643,7 +11463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7060c9bd-5c14-4e3a-b02a-f11f90e5cd35")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 359.41 181.61 0)
 			(effects
 				(font
@@ -11698,7 +11518,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11781,7 +11601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "761a9f6e-11eb-42cc-9dc0-07aed674f880")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 243.84 222.25 0)
 			(effects
 				(font
@@ -11837,7 +11657,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11919,16 +11739,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 349.25 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d66c22e-327e-4e40-a296-f2d2a2b6e817")
+		(property "Reference" "D3"
+			(at 347.345 160.655 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 347.345 162.56 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 349.25 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 165.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5361ff48-9ee2-471f-87e0-65625252feb0")
+		)
+		(pin "2"
+			(uuid "0afecf2f-576d-45c7-a366-dea3a24985f5")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 198.12 224.79 180)
+		(at 198.12 226.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7e263852-3fb1-47eb-90c0-505937002de3")
-		(property "Reference" "C13"
-			(at 203.2 224.155 0)
+		(property "Reference" "C6"
+			(at 203.2 225.425 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -11938,7 +11832,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 205.105 226.06 0)
+			(at 205.105 227.33 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -11948,7 +11842,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 197.1548 220.98 0)
+			(at 197.1548 222.25 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -11958,7 +11852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 224.79 0)
+			(at 198.12 226.06 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -11968,7 +11862,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 224.79 0)
+			(at 198.12 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11985,7 +11879,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "C13")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12241,76 +12135,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 332.74 213.36 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "85c527e9-c9b8-4fe0-8ab4-78507bf66272")
-		(property "Reference" "H1"
-			(at 327.025 213.36 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Mounting Hole M3"
-			(at 331.47 209.55 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 332.74 213.36 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 332.74 213.36 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 332.74 213.36 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90b53779-eda6-479a-85db-a21c16a77799")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 109.22 179.07 0)
 		(mirror x)
@@ -12386,77 +12210,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 281.94 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "877c40d1-df5a-4305-b5ba-2cbfaa9cc818")
-		(property "Reference" "TP4"
-			(at 283.718 217.678 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 283.718 220.218 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 287.02 222.25 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 287.02 222.25 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 281.94 222.25 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6a8138-51c4-4f6a-97a9-2017dda98490")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 173.99 220.98 0)
 		(unit 1)
@@ -12465,7 +12218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88145e04-9c46-448a-8281-efc3b266441c")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR08"
 			(at 173.99 227.33 0)
 			(effects
 				(font
@@ -12520,7 +12273,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR021")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12672,6 +12425,76 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 269.24 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ac39705-9f46-45ae-8234-0ba4368863f9")
+		(property "Reference" "#PWR031"
+			(at 269.24 232.41 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 229.87 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 226.06 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 226.06 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 226.06 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e122a620-cb27-4c97-9937-8aeb7a6d12b0")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 247.65 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12679,7 +12502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91248e5a-c7b0-4d18-b31d-65fd92a4f4d2")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 247.65 181.61 0)
 			(effects
 				(font
@@ -12734,7 +12557,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12750,7 +12573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "928dfc66-ca0b-4659-a478-f70feb21efd4")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 328.295 74.93 0)
 			(effects
 				(font
@@ -12809,7 +12632,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12914,7 +12737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 274.32 222.25 0)
 			(effects
 				(font
@@ -12951,6 +12774,80 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 337.82 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95725a3e-224b-4dea-a6c0-0e3c402fc3bd")
+		(property "Reference" "R10"
+			(at 339.09 170.815 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 339.725 172.72 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 337.82 177.038 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 175.26 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 175.26 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "effa33b8-b4af-4471-9ad2-698d6af6ff71")
+		)
+		(pin "2"
+			(uuid "b33aec03-b1ad-4450-a688-efdbb8beb687")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13260,80 +13157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 349.25 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e252751-d721-48b7-9f5d-7cc0fc844c66")
-		(property "Reference" "R6"
-			(at 350.52 151.765 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 351.155 153.67 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 349.25 157.988 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 349.25 156.21 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 349.25 156.21 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18f4ee1c-d2b4-49aa-83cf-feae3bf8b268")
-		)
-		(pin "2"
-			(uuid "3572c3b4-086c-48e1-9dd5-f9acd470e24e")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 193.04 58.42 90)
 		(mirror x)
@@ -13403,154 +13226,6 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 349.25 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0c9d019-e434-4468-b5ec-c470a51b00dc")
-		(property "Reference" "R7"
-			(at 350.52 160.655 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 351.155 162.56 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 349.25 166.878 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 349.25 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 349.25 165.1 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e0cb94a-9100-423a-9cc6-8dc8c749e122")
-		)
-		(pin "2"
-			(uuid "f03f8fcd-b2ed-41de-aec8-0dfef00a8666")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 337.82 175.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2b24df5-997f-4a8a-bd0b-1d085be164a1")
-		(property "Reference" "D4"
-			(at 335.915 170.815 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 335.915 172.72 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 337.82 175.26 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 337.82 175.26 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 175.26 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76f2aab1-0eb3-451e-a02d-57a59ae33871")
-		)
-		(pin "2"
-			(uuid "d6a1a47d-eec3-4a8b-96d5-11160915020a")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13827,7 +13502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae075663-e548-4a9f-9e01-010268419e88")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 243.84 161.29 0)
 			(effects
 				(font
@@ -13883,7 +13558,7 @@
 		(instances
 			(project ""
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -13898,7 +13573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2f36079-7dc3-4424-9490-4a2d674fc730")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 349.25 240.03 0)
 			(effects
 				(font
@@ -13953,7 +13628,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14040,7 +13715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7a063a2-da14-4059-9e9a-829e4d1fe39b")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 245.11 167.005 0)
 			(effects
 				(font
@@ -14099,7 +13774,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -14114,7 +13789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc4468ba-9290-47e0-8c9e-9cc0e41c9f21")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR024"
 			(at 331.47 156.21 0)
 			(effects
 				(font
@@ -14170,7 +13845,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14186,7 +13861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d238d80e-ff5d-4eb0-bd1f-1e532409f04d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 205.74 180.34 0)
 			(effects
 				(font
@@ -14243,7 +13918,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14404,7 +14079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d861b1d1-370d-448f-9424-639d2ec26b18")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 257.81 167.005 0)
 			(effects
 				(font
@@ -14463,7 +14138,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14754,7 +14429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed3e9c6e-a6ec-4441-a3c6-4209a681f623")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 334.01 63.5 0)
 			(effects
 				(font
@@ -14810,77 +14485,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 332.74 232.41 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2b6878a-3345-4804-b926-a1212e7b2423")
-		(property "Reference" "H4"
-			(at 327.025 232.41 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Mounting Hole M3"
-			(at 331.47 228.6 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 332.74 232.41 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 332.74 232.41 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 332.74 232.41 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1275dd79-c0f3-49ae-a5eb-420f2cebd49c")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "H4")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14969,7 +14574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5f2cbb9-02b0-4569-af34-066360e30fe3")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 359.41 162.56 0)
 			(effects
 				(font
@@ -15024,7 +14629,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15039,7 +14644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6d641f4-d608-4cad-a75b-ee4bd921c594")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR011"
 			(at 198.12 213.36 0)
 			(effects
 				(font
@@ -15094,7 +14699,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR030")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -15109,7 +14714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9d94704-b3d8-4523-9b0c-b4e21f141f6a")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 280.67 167.005 0)
 			(effects
 				(font
@@ -15168,7 +14773,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -15183,7 +14788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb2083c9-a8d9-45c3-a2f0-bf9d29b69fd6")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR015"
 			(at 204.47 166.37 0)
 			(effects
 				(font
@@ -15239,7 +14844,81 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR028")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 337.82 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbf59906-91ea-4c5a-82e8-244cd8b5bf53")
+		(property "Reference" "R8"
+			(at 339.09 151.765 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 339.725 153.67 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 337.82 157.988 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 156.21 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 156.21 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33ac0396-a34d-451f-aa6d-814a8bf90f77")
+		)
+		(pin "2"
+			(uuid "f14afd78-7c9d-4446-8791-a4e95c1ebca3")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "R8")
 					(unit 1)
 				)
 			)
