@@ -10146,7 +10146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
+		(property "Footprint" "sumec_brd:SW_SPST_EVQPE1"
 			(at 179.07 215.9 0)
 			(effects
 				(font
@@ -11144,7 +11144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
+		(property "Footprint" "sumec_brd:SW_SPST_EVQPE1"
 			(at 146.05 215.9 0)
 			(effects
 				(font
@@ -13631,7 +13631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
+		(property "Footprint" "sumec_brd:SW_SPST_EVQPE1"
 			(at 123.19 215.9 0)
 			(effects
 				(font
