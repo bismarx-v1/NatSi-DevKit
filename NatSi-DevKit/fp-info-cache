@@ -1,4 +1,4 @@
-23697256241293659
+23697635603099142
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96810,6 +96810,13 @@ Integrated Circuit
 17
 17
 sumec_brd
+HRO_TYPE-C-31-M-12
+
+
+0
+16
+16
+sumec_brd
 MODULE_ESP32-WROOM-32D
 
 
@@ -96865,13 +96872,6 @@ TB6612FNG
 0
 24
 24
-sumec_brd
-USB_Type_C
-
-
-0
-16
-16
 sumec_brd
 Vishay_TSOP382
 IR Receiver Vishay TSOP-xxxx, MINICAST package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf

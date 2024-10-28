@@ -13236,7 +13236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sumec_brd:USB_Type_C"
+		(property "Footprint" "sumec_brd:HRO_TYPE-C-31-M-12"
 			(at 133.35 167.64 0)
 			(effects
 				(font
