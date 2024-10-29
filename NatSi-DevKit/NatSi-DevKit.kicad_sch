@@ -8321,31 +8321,6 @@
 			)
 		)
 	)
-	(global_label "IO19_D-"
-		(shape input)
-		(at 276.86 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "40e982b2-3588-4177-83e0-5d272d340c46")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.4174 115.57 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO06_MOSI"
 		(shape input)
 		(at 167.64 93.98 180)
@@ -8367,31 +8342,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO19_D-"
-		(shape input)
-		(at 205.74 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "46ea3284-c53a-4c04-85e6-ddcb23fa255b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2974 83.82 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8546,6 +8496,31 @@
 			)
 		)
 	)
+	(global_label "D+"
+		(shape input)
+		(at 276.86 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "505da305-51c9-43ff-a7cf-4d99d35e1b66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.573 115.57 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO21_LED"
 		(shape input)
 		(at 205.74 88.9 0)
@@ -8611,31 +8586,6 @@
 		(uuid "5f6e1949-bc59-499a-9fa0-d7bf21cc7824")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 282.1108 69.85 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO20_D+"
-		(shape input)
-		(at 276.86 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "61b9e69d-4634-4e77-a697-fc44a143ea94")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.4174 113.03 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -8996,6 +8946,31 @@
 			)
 		)
 	)
+	(global_label "D+"
+		(shape input)
+		(at 205.74 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "89002d0a-5df5-4b96-8880-58f704a4f8e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.453 86.36 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO05_CLK"
 		(shape input)
 		(at 335.28 97.79 180)
@@ -9271,7 +9246,7 @@
 			)
 		)
 	)
-	(global_label "IO20_D+"
+	(global_label "D+"
 		(shape input)
 		(at 205.74 153.67 0)
 		(fields_autoplaced yes)
@@ -9285,7 +9260,7 @@
 		)
 		(uuid "9fb87541-3754-40c8-9f83-ef7577004c99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2974 153.67 0)
+			(at 209.453 153.67 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9436,31 +9411,6 @@
 		(uuid "aee15d1d-5d7e-447f-a119-12a02ea4531c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.9908 73.66 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO20_D+"
-		(shape input)
-		(at 205.74 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "b414fc7c-6173-4529-80a7-cbc7766de709")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2974 86.36 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9646,6 +9596,31 @@
 			)
 		)
 	)
+	(global_label "D-"
+		(shape input)
+		(at 276.86 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c2e84290-9682-4faa-ab97-66b708e9d4f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.573 113.03 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO8_BT"
 		(shape input)
 		(at 203.2 220.98 0)
@@ -9796,7 +9771,7 @@
 			)
 		)
 	)
-	(global_label "IO19_D-"
+	(global_label "D-"
 		(shape input)
 		(at 205.74 179.07 0)
 		(fields_autoplaced yes)
@@ -9810,7 +9785,7 @@
 		)
 		(uuid "da11874b-dfe0-4b70-b114-bb83f31962e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2974 179.07 0)
+			(at 209.453 179.07 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -9961,6 +9936,31 @@
 		(uuid "e622d40b-41c3-4028-a4db-11dfbf3c918a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 281.8919 85.09 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 205.74 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ef9660ee-c3a6-4a54-abb9-9fecb8403bff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.453 83.82 0)
 			(effects
 				(font
 					(face "Consolas")
