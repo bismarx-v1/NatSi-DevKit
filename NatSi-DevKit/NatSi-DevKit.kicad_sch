@@ -6020,7 +6020,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 226.06) (xy 256.54 222.25)
+			(xy 265.43 224.79) (xy 265.43 220.98)
 		)
 		(stroke
 			(width 0)
@@ -6270,7 +6270,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 226.06) (xy 243.84 222.25)
+			(xy 252.73 224.79) (xy 252.73 220.98)
 		)
 		(stroke
 			(width 0)
@@ -6537,16 +6537,6 @@
 			(type default)
 		)
 		(uuid "8bfa12df-9f9c-4ed8-8832-ceb7747c0380")
-	)
-	(wire
-		(pts
-			(xy 269.24 226.06) (xy 269.24 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c0c86ed-dedc-406a-aa6c-4d00d9e91e71")
 	)
 	(wire
 		(pts
@@ -7482,7 +7472,7 @@
 	)
 	(text "BOOT"
 		(exclude_from_sim no)
-		(at 143.51 214.63 0)
+		(at 146.05 213.995 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -7490,7 +7480,6 @@
 				(bold yes)
 				(color 0 0 0 1)
 			)
-			(justify left bottom)
 		)
 		(uuid "69dedbae-40fa-42c9-bfca-e1b55a0cde8c")
 	)
@@ -7656,7 +7645,7 @@
 	)
 	(text "ENABLE\nRESET"
 		(exclude_from_sim no)
-		(at 120.015 214.63 0)
+		(at 123.19 212.725 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -7665,7 +7654,6 @@
 				(bold yes)
 				(color 0 0 0 1)
 			)
-			(justify left bottom)
 		)
 		(uuid "e12112f0-bfff-4ccf-a30a-44bc090bd8ab")
 	)
@@ -10553,7 +10541,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 256.54 222.25 0)
+		(at 265.43 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10561,7 +10549,7 @@
 		(dnp no)
 		(uuid "13716777-ae69-4e99-98ea-9433fb7aa253")
 		(property "Reference" "TP2"
-			(at 258.318 217.678 0)
+			(at 267.208 216.408 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10571,7 +10559,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 258.318 220.218 0)
+			(at 267.208 218.948 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10581,7 +10569,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 261.62 222.25 0)
+			(at 270.51 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10591,7 +10579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 222.25 0)
+			(at 270.51 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10601,7 +10589,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 256.54 222.25 0)
+			(at 265.43 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10831,7 +10819,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 256.54 226.06 180)
+		(at 265.43 224.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10839,7 +10827,7 @@
 		(dnp no)
 		(uuid "2487379a-4309-40ae-8026-a3b384fa9d66")
 		(property "Reference" "#PWR019"
-			(at 256.54 222.25 0)
+			(at 265.43 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10849,7 +10837,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 255.27 227.965 0)
+			(at 264.16 226.695 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10859,7 +10847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 226.06 0)
+			(at 265.43 224.79 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10869,7 +10857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 226.06 0)
+			(at 265.43 224.79 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10879,7 +10867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 256.54 226.06 0)
+			(at 265.43 224.79 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11144,7 +11132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sumec_brd:SW_SPST_EVQPE1"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 146.05 215.9 0)
 			(effects
 				(font
@@ -11631,7 +11619,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 243.84 222.25 0)
+		(at 252.73 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11639,7 +11627,7 @@
 		(dnp no)
 		(uuid "3b5356bf-b3a5-4c83-a9be-80f354cdc60d")
 		(property "Reference" "TP1"
-			(at 245.618 217.678 0)
+			(at 254.508 216.408 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11649,7 +11637,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 245.618 220.218 0)
+			(at 254.508 218.948 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11659,7 +11647,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 248.92 222.25 0)
+			(at 257.81 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11669,7 +11657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 222.25 0)
+			(at 257.81 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11679,7 +11667,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 243.84 222.25 0)
+			(at 252.73 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12917,7 +12905,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 243.84 226.06 180)
+		(at 252.73 224.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12925,7 +12913,7 @@
 		(dnp no)
 		(uuid "761a9f6e-11eb-42cc-9dc0-07aed674f880")
 		(property "Reference" "#PWR017"
-			(at 243.84 222.25 0)
+			(at 252.73 220.98 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12935,7 +12923,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 242.57 227.965 0)
+			(at 251.46 226.695 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12945,7 +12933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 226.06 0)
+			(at 252.73 224.79 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12955,7 +12943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 226.06 0)
+			(at 252.73 224.79 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12965,7 +12953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 226.06 0)
+			(at 252.73 224.79 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -13631,7 +13619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sumec_brd:SW_SPST_EVQPE1"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 123.19 215.9 0)
 			(effects
 				(font
@@ -13741,76 +13729,6 @@
 			(project ""
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 269.24 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ac39705-9f46-45ae-8234-0ba4368863f9")
-		(property "Reference" "#PWR031"
-			(at 269.24 232.41 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 229.87 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 226.06 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 226.06 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 226.06 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e122a620-cb27-4c97-9937-8aeb7a6d12b0")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14099,77 +14017,6 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 269.24 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9474faae-e1e5-44ad-97c7-6f61dcff1527")
-		(property "Reference" "TP3"
-			(at 271.018 217.678 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 271.018 220.218 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 274.32 222.25 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 222.25 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 269.24 222.25 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc2bdbaf-ce30-49e7-a973-c01088512b90")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
