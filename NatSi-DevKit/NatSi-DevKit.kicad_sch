@@ -5900,7 +5900,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 229.87) (xy 331.47 215.9)
+			(xy 322.58 229.87) (xy 322.58 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5960,7 +5960,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 229.87) (xy 358.14 215.9)
+			(xy 345.44 229.87) (xy 345.44 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6000,7 +6000,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 229.87) (xy 361.95 215.9)
+			(xy 349.25 229.87) (xy 349.25 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6160,7 +6160,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 229.87) (xy 323.85 215.9)
+			(xy 318.77 229.87) (xy 318.77 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6227,6 +6227,16 @@
 			(type default)
 		)
 		(uuid "49000bc9-8aee-4322-83dd-5320aba489c1")
+	)
+	(wire
+		(pts
+			(xy 356.87 229.87) (xy 356.87 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49dc2ba3-cae9-47fe-ba7c-51005273464c")
 	)
 	(wire
 		(pts
@@ -6297,16 +6307,6 @@
 			(type default)
 		)
 		(uuid "5296568e-142b-4f65-85e5-868f6a175c39")
-	)
-	(wire
-		(pts
-			(xy 350.52 229.87) (xy 350.52 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "571f7429-4c7a-4a63-91f2-29b3d8e8810f")
 	)
 	(wire
 		(pts
@@ -6407,16 +6407,6 @@
 			(type default)
 		)
 		(uuid "6aad40eb-df80-4d2e-9721-44ebe73efa1e")
-	)
-	(wire
-		(pts
-			(xy 316.23 215.9) (xy 316.23 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e099f79-98da-48ad-91f1-eb845c05eefa")
 	)
 	(wire
 		(pts
@@ -6630,7 +6620,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 229.87) (xy 339.09 215.9)
+			(xy 330.2 229.87) (xy 330.2 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6670,7 +6660,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 229.87) (xy 335.28 215.9)
+			(xy 326.39 229.87) (xy 326.39 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6790,16 +6780,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 229.87) (xy 327.66 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a771c310-3379-4ac2-b34f-262d04d996bc")
-	)
-	(wire
-		(pts
 			(xy 149.86 227.33) (xy 152.4 227.33)
 		)
 		(stroke
@@ -6840,7 +6820,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 215.9) (xy 320.04 229.87)
+			(xy 314.96 215.9) (xy 314.96 229.87)
 		)
 		(stroke
 			(width 0)
@@ -6980,7 +6960,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 229.87) (xy 346.71 215.9)
+			(xy 337.82 229.87) (xy 337.82 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7090,7 +7070,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 229.87) (xy 342.9 215.9)
+			(xy 334.01 229.87) (xy 334.01 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7180,7 +7160,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 229.87) (xy 354.33 215.9)
+			(xy 341.63 229.87) (xy 341.63 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7227,6 +7207,16 @@
 			(type default)
 		)
 		(uuid "f3481068-ce8e-4868-abd5-0479b03c57b3")
+	)
+	(wire
+		(pts
+			(xy 353.06 229.87) (xy 353.06 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c42da9-be6e-433a-92fe-5f2b70806180")
 	)
 	(wire
 		(pts
@@ -7752,19 +7742,8 @@
 		)
 		(uuid "11583fce-7310-4d04-8a51-9a223a5c837a")
 	)
-	(label "BLAHAJ_SILK"
-		(at 327.66 229.87 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1445a851-b9ca-4b0f-8330-29d16f4f6418")
-	)
 	(label "FLO_SLEEP"
-		(at 342.9 229.87 90)
+		(at 334.01 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7775,7 +7754,7 @@
 		(uuid "1514c445-bdf7-46a3-af12-25c7f6b517d3")
 	)
 	(label "JOJO"
-		(at 339.09 229.87 90)
+		(at 330.2 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7786,7 +7765,7 @@
 		(uuid "16a32850-b7f2-4ac8-abe5-b4890fcc497d")
 	)
 	(label ":3_CAT"
-		(at 354.33 229.87 90)
+		(at 341.63 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7796,19 +7775,8 @@
 		)
 		(uuid "37f66ee3-2495-44da-9b08-c5204b36836d")
 	)
-	(label "UWU"
-		(at 350.52 229.87 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "597a75fc-fec6-4b6d-918c-3ed5f20a0681")
-	)
 	(label "LIVE_NAT_REACT"
-		(at 335.28 229.87 90)
+		(at 326.39 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7818,8 +7786,19 @@
 		)
 		(uuid "71db16eb-4cf0-4356-8f58-0f6af3bd5a11")
 	)
+	(label "OWO"
+		(at 353.06 229.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "772595ac-5140-42f9-998a-557470bbd605")
+	)
 	(label "NAT_PFP"
-		(at 320.04 229.87 90)
+		(at 314.96 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7841,7 +7820,7 @@
 		(uuid "b0d9c5e2-2d66-4ede-8482-2d5db63170de")
 	)
 	(label "BLAHAJ_LN"
-		(at 331.47 229.87 90)
+		(at 322.58 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7852,7 +7831,7 @@
 		(uuid "c10b842c-b576-4b01-8c0b-8b39651179ca")
 	)
 	(label "CURSOR"
-		(at 346.71 229.87 90)
+		(at 337.82 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7863,7 +7842,7 @@
 		(uuid "cd10c94d-5b2a-45c3-ab47-a60b3866237c")
 	)
 	(label ":3_SOLDER"
-		(at 361.95 229.87 90)
+		(at 349.25 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7873,8 +7852,8 @@
 		)
 		(uuid "d900bbd0-2ef7-4e06-a321-1436edb83cf5")
 	)
-	(label "NAT_PICME"
-		(at 316.23 229.87 90)
+	(label "NYA~"
+		(at 356.87 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7882,10 +7861,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e73184b0-36db-4507-bc2e-a943b8ba2abe")
+		(uuid "e86f3c27-9658-4f72-95b3-0648f6b413fc")
 	)
 	(label ":3"
-		(at 358.14 229.87 90)
+		(at 345.44 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7896,7 +7875,7 @@
 		(uuid "e9ab7eb8-ea5f-417f-8502-e78bb8823d28")
 	)
 	(label "BLAHAJ_SLDR"
-		(at 323.85 229.87 90)
+		(at 318.77 229.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10541,15 +10520,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 358.14 215.9 0)
+		(at 345.44 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0adb043d-0c1d-442f-ae3c-84fa52eb88f1")
-		(property "Reference" "TP14"
-			(at 359.918 211.328 0)
+		(property "Reference" "TP13"
+			(at 347.218 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10560,7 +10539,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 359.918 213.868 0)
+			(at 347.218 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10571,7 +10550,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:COLON_3_IMG"
-			(at 363.22 222.885 0)
+			(at 350.52 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10581,7 +10560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 215.9 0)
+			(at 350.52 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10591,7 +10570,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 358.14 215.9 0)
+			(at 345.44 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10606,7 +10585,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP14")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -10688,7 +10667,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 346.71 215.9 0)
+		(at 337.82 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10696,7 +10675,7 @@
 		(dnp no)
 		(uuid "1222e4c0-5833-4172-bd76-c3a13a171c5a")
 		(property "Reference" "TP11"
-			(at 348.488 211.328 0)
+			(at 339.598 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10707,7 +10686,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 348.488 213.868 0)
+			(at 339.598 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10718,7 +10697,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:CURSOR_IMG"
-			(at 351.79 222.885 0)
+			(at 342.9 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10728,7 +10707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 215.9 0)
+			(at 342.9 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -10738,7 +10717,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 346.71 215.9 0)
+			(at 337.82 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11110,7 +11089,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 320.04 215.9 0)
+		(at 314.96 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11118,7 +11097,7 @@
 		(dnp no)
 		(uuid "25bc2ef3-3c9b-4927-a22c-d0192d80d86c")
 		(property "Reference" "TP4"
-			(at 321.818 211.328 0)
+			(at 316.738 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11129,7 +11108,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 321.818 213.868 0)
+			(at 316.738 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11140,7 +11119,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:NAT_PFP_IMG"
-			(at 325.12 222.885 0)
+			(at 320.04 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11150,7 +11129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 325.12 215.9 0)
+			(at 320.04 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11160,7 +11139,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 320.04 215.9 0)
+			(at 314.96 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11695,7 +11674,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 323.85 215.9 0)
+		(at 318.77 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11703,7 +11682,7 @@
 		(dnp no)
 		(uuid "3517a7cf-8f6e-43cf-9f32-37212b05cb3d")
 		(property "Reference" "TP5"
-			(at 325.628 211.328 0)
+			(at 320.548 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11714,7 +11693,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 325.628 213.868 0)
+			(at 320.548 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11725,7 +11704,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:BLAHAJ_IMG"
-			(at 328.93 222.885 0)
+			(at 323.85 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11735,7 +11714,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 328.93 215.9 0)
+			(at 323.85 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11745,7 +11724,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 323.85 215.9 0)
+			(at 318.77 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11768,15 +11747,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 361.95 215.9 0)
+		(at 349.25 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "355fa97b-f0db-4c4b-9bd8-9033cbe67eb0")
-		(property "Reference" "TP15"
-			(at 363.728 211.328 0)
+		(property "Reference" "TP14"
+			(at 351.028 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11787,7 +11766,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 363.728 213.868 0)
+			(at 351.028 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11798,7 +11777,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:COLON_3_SOLDER"
-			(at 367.03 222.885 0)
+			(at 354.33 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11808,7 +11787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 367.03 215.9 0)
+			(at 354.33 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11818,7 +11797,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 361.95 215.9 0)
+			(at 349.25 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -11833,7 +11812,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP15")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -12339,7 +12318,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 331.47 215.9 0)
+		(at 322.58 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12347,7 +12326,7 @@
 		(dnp no)
 		(uuid "4dc618af-25ca-42cd-b98c-bcb2f6f3e255")
 		(property "Reference" "TP7"
-			(at 333.248 211.328 0)
+			(at 324.358 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12358,7 +12337,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 333.248 213.868 0)
+			(at 324.358 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12369,7 +12348,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:BLAHAJ_LINE_IMG"
-			(at 336.55 222.885 0)
+			(at 327.66 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12379,7 +12358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 215.9 0)
+			(at 327.66 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12389,7 +12368,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 331.47 215.9 0)
+			(at 322.58 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -12982,79 +12961,6 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 316.23 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68e2d631-dd56-4984-864f-8b79c909696a")
-		(property "Reference" "TP3"
-			(at 318.008 211.328 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 318.008 213.868 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "sumec_graphic:NATI_PICME_IMG"
-			(at 321.31 222.885 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 321.31 215.9 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 316.23 215.9 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2aee9f5-0150-4323-bd29-9066a41ff1f0")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -14174,79 +14080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 327.66 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "900b4618-74b1-4ff0-af19-81e6d7b0faa4")
-		(property "Reference" "TP6"
-			(at 329.438 211.328 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 329.438 213.868 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "sumec_graphic:BLAHAJ_IMG_silk"
-			(at 332.74 222.885 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 332.74 215.9 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cecb784-0be0-417b-ba3e-84ca511ed79a")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 247.65 175.26 0)
 		(unit 1)
@@ -14530,79 +14363,6 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 350.52 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "957c0ea3-602c-4c83-b0f0-c214d1d4747b")
-		(property "Reference" "TP12"
-			(at 352.298 211.328 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 352.298 213.868 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "sumec_graphic:UWU_IMG"
-			(at 355.6 222.885 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 355.6 215.9 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 350.52 215.9 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb86969d-ab7e-4880-b9d7-6e995f0d3888")
-		)
-		(instances
-			(project "NatSi-DevKit"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -14913,7 +14673,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 342.9 215.9 0)
+		(at 334.01 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14921,7 +14681,7 @@
 		(dnp no)
 		(uuid "99ad37a2-6621-48b5-b04e-822ed51e0ab6")
 		(property "Reference" "TP10"
-			(at 344.678 211.328 0)
+			(at 335.788 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14932,7 +14692,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 344.678 213.868 0)
+			(at 335.788 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14943,7 +14703,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:FLO_SLEEP_IMG"
-			(at 347.98 222.885 0)
+			(at 339.09 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14953,7 +14713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 215.9 0)
+			(at 339.09 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14963,7 +14723,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 342.9 215.9 0)
+			(at 334.01 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -14986,7 +14746,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 335.28 215.9 0)
+		(at 326.39 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14994,7 +14754,7 @@
 		(dnp no)
 		(uuid "9b144143-dabc-42e4-925b-84228737503f")
 		(property "Reference" "TP8"
-			(at 337.058 211.328 0)
+			(at 328.168 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15005,7 +14765,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 337.058 213.868 0)
+			(at 328.168 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15016,7 +14776,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:LIVE_NAT_REACTION_NEG"
-			(at 340.36 222.885 0)
+			(at 331.47 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15026,7 +14786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 340.36 215.9 0)
+			(at 331.47 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15036,7 +14796,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 335.28 215.9 0)
+			(at 326.39 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15531,6 +15291,79 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 353.06 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c02c679f-7919-40ac-ba6d-2e5fdac634fa")
+		(property "Reference" "TP15"
+			(at 354.838 211.328 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 354.838 213.868 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:OWO_IMG"
+			(at 358.14 222.885 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 215.9 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 353.06 215.9 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "942992cf-34ed-4b0e-94ff-9fbdc784f03b")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -16322,7 +16155,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 339.09 215.9 0)
+		(at 330.2 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16330,7 +16163,7 @@
 		(dnp no)
 		(uuid "e6ca2add-ee4b-4f30-a941-a58cd9fd57ca")
 		(property "Reference" "TP9"
-			(at 340.868 211.328 0)
+			(at 331.978 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16341,7 +16174,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 340.868 213.868 0)
+			(at 331.978 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16352,7 +16185,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:JOJO_SYMBOL_IMG"
-			(at 344.17 222.885 0)
+			(at 335.28 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16362,7 +16195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 215.9 0)
+			(at 335.28 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16372,7 +16205,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 339.09 215.9 0)
+			(at 330.2 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16461,6 +16294,79 @@
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 356.87 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecd064de-0444-4fb9-8d13-c3bba7e0534c")
+		(property "Reference" "TP16"
+			(at 358.648 211.328 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 358.648 213.868 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:NYA_IMG"
+			(at 361.95 222.885 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 215.9 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 356.87 215.9 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acd157b6-abc2-4224-b9a2-1ab63ea59ed8")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -16824,15 +16730,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 354.33 215.9 0)
+		(at 341.63 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f749b84f-1e0b-4cc1-ba0e-aad5d884f66c")
-		(property "Reference" "TP13"
-			(at 356.108 211.328 0)
+		(property "Reference" "TP12"
+			(at 343.408 211.328 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16843,7 +16749,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 356.108 213.868 0)
+			(at 343.408 213.868 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16854,7 +16760,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:COLON_3_CAT_IMG"
-			(at 359.41 222.885 0)
+			(at 346.71 222.885 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16864,7 +16770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 359.41 215.9 0)
+			(at 346.71 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16874,7 +16780,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 354.33 215.9 0)
+			(at 341.63 215.9 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -16889,7 +16795,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP13")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
