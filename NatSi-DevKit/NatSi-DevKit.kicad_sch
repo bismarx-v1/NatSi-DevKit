@@ -7160,6 +7160,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 229.87) (xy 360.68 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb085660-fd1e-4f79-99a2-fdcd35838ba8")
+	)
+	(wire
+		(pts
 			(xy 341.63 229.87) (xy 341.63 215.9)
 		)
 		(stroke
@@ -7753,7 +7763,7 @@
 		)
 		(uuid "1514c445-bdf7-46a3-af12-25c7f6b517d3")
 	)
-	(label "JOJO"
+	(label "JOJO_SOLDER"
 		(at 330.2 229.87 90)
 		(fields_autoplaced yes)
 		(effects
@@ -7851,6 +7861,17 @@
 			(justify left bottom)
 		)
 		(uuid "d900bbd0-2ef7-4e06-a321-1436edb83cf5")
+	)
+	(label "UWU"
+		(at 360.68 229.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5274368-f5d3-4bf2-9567-5692d3ae8a54")
 	)
 	(label "NYA~"
 		(at 356.87 229.87 90)
@@ -10527,7 +10548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0adb043d-0c1d-442f-ae3c-84fa52eb88f1")
-		(property "Reference" "TP13"
+		(property "Reference" "TP11"
 			(at 347.218 211.328 0)
 			(effects
 				(font
@@ -10585,7 +10606,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP13")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -10674,7 +10695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1222e4c0-5833-4172-bd76-c3a13a171c5a")
-		(property "Reference" "TP11"
+		(property "Reference" "TP9"
 			(at 339.598 211.328 0)
 			(effects
 				(font
@@ -10732,7 +10753,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP11")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -11096,7 +11117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25bc2ef3-3c9b-4927-a22c-d0192d80d86c")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 316.738 211.328 0)
 			(effects
 				(font
@@ -11154,7 +11175,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11681,7 +11702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3517a7cf-8f6e-43cf-9f32-37212b05cb3d")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 320.548 211.328 0)
 			(effects
 				(font
@@ -11739,7 +11760,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -11754,7 +11775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "355fa97b-f0db-4c4b-9bd8-9033cbe67eb0")
-		(property "Reference" "TP14"
+		(property "Reference" "TP12"
 			(at 351.028 211.328 0)
 			(effects
 				(font
@@ -11812,7 +11833,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP14")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -12325,7 +12346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dc618af-25ca-42cd-b98c-bcb2f6f3e255")
-		(property "Reference" "TP7"
+		(property "Reference" "TP5"
 			(at 324.358 211.328 0)
 			(effects
 				(font
@@ -12347,7 +12368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sumec_graphic:BLAHAJ_LINE_IMG"
+		(property "Footprint" "sumec_graphic:BLAHAJ_SOLDER_LN_IMG"
 			(at 327.66 222.885 0)
 			(effects
 				(font
@@ -12383,7 +12404,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP7")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -14369,6 +14390,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 360.68 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "966accca-08ec-47ca-b836-7a89d8f5d322")
+		(property "Reference" "TP15"
+			(at 362.458 211.328 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 362.458 213.868 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:UWU_IMG"
+			(at 365.76 222.885 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 215.9 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 360.68 215.9 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65bcfaae-d361-40f0-ae04-a201cfe4f0e9")
+		)
+		(instances
+			(project "NatSi-DevKit"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 184.15 0)
 		(unit 1)
@@ -14680,7 +14774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99ad37a2-6621-48b5-b04e-822ed51e0ab6")
-		(property "Reference" "TP10"
+		(property "Reference" "TP8"
 			(at 335.788 211.328 0)
 			(effects
 				(font
@@ -14738,7 +14832,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP10")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -14753,7 +14847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b144143-dabc-42e4-925b-84228737503f")
-		(property "Reference" "TP8"
+		(property "Reference" "TP6"
 			(at 328.168 211.328 0)
 			(effects
 				(font
@@ -14811,7 +14905,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP8")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -15305,7 +15399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c02c679f-7919-40ac-ba6d-2e5fdac634fa")
-		(property "Reference" "TP15"
+		(property "Reference" "TP13"
 			(at 354.838 211.328 0)
 			(effects
 				(font
@@ -15363,7 +15457,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP15")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -16162,7 +16256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6ca2add-ee4b-4f30-a941-a58cd9fd57ca")
-		(property "Reference" "TP9"
+		(property "Reference" "TP7"
 			(at 331.978 211.328 0)
 			(effects
 				(font
@@ -16184,7 +16278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sumec_graphic:JOJO_SYMBOL_IMG"
+		(property "Footprint" "sumec_graphic:JOJO_SOLDER_IMG"
 			(at 335.28 222.885 0)
 			(effects
 				(font
@@ -16220,7 +16314,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP9")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -16308,7 +16402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecd064de-0444-4fb9-8d13-c3bba7e0534c")
-		(property "Reference" "TP16"
+		(property "Reference" "TP14"
 			(at 358.648 211.328 0)
 			(effects
 				(font
@@ -16366,7 +16460,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP16")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -16737,7 +16831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f749b84f-1e0b-4cc1-ba0e-aad5d884f66c")
-		(property "Reference" "TP12"
+		(property "Reference" "TP10"
 			(at 343.408 211.328 0)
 			(effects
 				(font
@@ -16795,7 +16889,7 @@
 		(instances
 			(project "NatSi-DevKit"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP12")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
