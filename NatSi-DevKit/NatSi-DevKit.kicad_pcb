@@ -23500,6 +23500,19 @@
 		(layer "F.Fab")
 		(uuid "d519737b-30d1-4274-9a1c-0a4675ae6219")
 	)
+	(gr_text "text"
+		(at 183.215 130.03 0)
+		(layer "B.Cu" knockout)
+		(uuid "4eef8964-7868-49cd-aab2-c9691146c56f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "D02"
 		(at 163.3198 109.228 0)
 		(layer "B.SilkS")
