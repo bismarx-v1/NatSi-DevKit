@@ -59,11 +59,26 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|118481000|102653000|96210eb6-718d-48e8-b149-2d3b4091aacb|deea4037-3566-483d-8bb0-e4b2eea7be5d",
-        "hole_clearance|118481000|102853000|96210eb6-718d-48e8-b149-2d3b4091aacb|3db874c3-a224-461f-bba2-3f3266ac1f04",
-        "hole_clearance|118481000|97053000|3ee28696-2398-4947-867c-39ecd79b35cc|033ce51c-8fba-4d2c-b75b-081bda1970f6",
-        "hole_clearance|118481000|97253000|3ee28696-2398-4947-867c-39ecd79b35cc|162e4d9b-6964-48b1-99f8-d09a51014d95",
-        "items_not_allowed|174691000|92808800|3dc4d077-4118-47f8-ac2f-01cd13b3770a|00000000-0000-0000-0000-000000000000"
+        [
+          "hole_clearance|118481000|102653000|96210eb6-718d-48e8-b149-2d3b4091aacb|deea4037-3566-483d-8bb0-e4b2eea7be5d",
+          ""
+        ],
+        [
+          "hole_clearance|118481000|102853000|96210eb6-718d-48e8-b149-2d3b4091aacb|3db874c3-a224-461f-bba2-3f3266ac1f04",
+          ""
+        ],
+        [
+          "hole_clearance|118481000|97053000|3ee28696-2398-4947-867c-39ecd79b35cc|033ce51c-8fba-4d2c-b75b-081bda1970f6",
+          ""
+        ],
+        [
+          "hole_clearance|118481000|97253000|3ee28696-2398-4947-867c-39ecd79b35cc|162e4d9b-6964-48b1-99f8-d09a51014d95",
+          ""
+        ],
+        [
+          "items_not_allowed|174691000|92808800|3dc4d077-4118-47f8-ac2f-01cd13b3770a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
       ],
       "meta": {
         "version": 2
@@ -75,16 +90,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "ignore",
         "extra_footprint": "ignore",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -95,9 +113,11 @@
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "ignore",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -112,7 +132,9 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "ignore",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -125,6 +147,7 @@
         "min_clearance": 0.2,
         "min_connection": 0.01,
         "min_copper_edge_clearance": 0.3,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.3,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
@@ -142,16 +165,17 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -162,7 +186,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -173,7 +197,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
