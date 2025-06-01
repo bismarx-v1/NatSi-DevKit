@@ -21843,49 +21843,6 @@
 		(layer "Edge.Cuts")
 		(uuid "ae28cac5-1660-4fc8-af79-54aa268d7041")
 	)
-	(gr_line
-		(start 219.30673 48.64687)
-		(end 222.7844 45.1692)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "9be0ba79-3c1d-4afc-9f35-cb82c6aaa8c6")
-	)
-	(gr_line
-		(start 234.664431 48.667231)
-		(end 231.165284 45.168084)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "d2cdf8e7-a1fc-43c7-808a-400642e472db")
-	)
-	(gr_line
-		(start 221.9716 45.9312)
-		(end 232.5888 45.9312)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "d519737b-30d1-4274-9a1c-0a4675ae6219")
-	)
-	(gr_text "text"
-		(at 183.215 130.03 0)
-		(layer "B.Cu" knockout)
-		(uuid "4eef8964-7868-49cd-aab2-c9691146c56f")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(gr_text "5V"
 		(at 122.683 89.797 0)
 		(layer "F.SilkS")
@@ -29295,42 +29252,6 @@
 					(xy 127.128909 90.383049) (xy 127.151659 90.394921) (xy 127.118365 90.403729) (xy 127.103445 90.410137)
 					(xy 127.074165 90.42797) (xy 127.060532 90.439544) (xy 127.037832 90.467144) (xy 127.029757 90.481774)
 					(xy 127.019354 90.515921)
-				)
-			)
-		)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Fab")
-		(uuid "0ab842b9-819b-4210-abb1-826e143e8615")
-		(pts
-			(xy 236.7544 45.9312) (xy 231.9792 45.9312)
-		)
-		(height 2.9972)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "4.7752 mm"
-			(at 234.3668 41.784 0)
-			(layer "F.Fab")
-			(uuid "0ab842b9-819b-4210-abb1-826e143e8615")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
