@@ -15523,7 +15523,7 @@
 		(dnp no)
 		(uuid "67918ef2-da90-49bb-a975-6e9f11d8cd56")
 		(property "Reference" "J4"
-			(at 339.09 74.93 0)
+			(at 339.725 76.835 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -15533,7 +15533,7 @@
 			)
 		)
 		(property "Value" "MEM2067-02-180-00-A_REVB"
-			(at 339.09 77.47 0)
+			(at 339.725 78.74 0)
 			(effects
 				(font
 					(face "Consolas")
